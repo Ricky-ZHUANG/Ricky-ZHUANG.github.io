@@ -8,6 +8,9 @@ https://templatemo.com/tm-560-astro-motion
 
 var gallery = undefined;
 
+var video = document.getElementById("myVideo");
+video.playbackRate = 0.5;
+
 function closeMenu() {
   $(".navbar-collapse").removeClass("show"); 
 }
