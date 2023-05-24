@@ -10,6 +10,7 @@ var gallery = undefined;
 
 var video = document.getElementById("bg-video");
 video.playbackRate = 0.5;
+console.log('New playback rate:', video.playbackRate)
 
 function closeMenu() {
   $(".navbar-collapse").removeClass("show"); 
